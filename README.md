@@ -25,6 +25,9 @@ Decrease cancellation rates to increase revenue.
 Explore other platforms or unrecognized sources contributing to around 40% of total revenue.
 
 ## Dashboard Screenshots
+![revenue dashboard](https://github.com/samjam29/AtliqGrand/assets/67960348/f2629e75-958a-40f6-b5b3-479f4c853f2a)
+
+![Occ and booking db](https://github.com/samjam29/AtliqGrand/assets/67960348/8d39ee68-d6ea-45f4-9c51-2bd4b82c6173)
 
 
 ## EDA Summary
