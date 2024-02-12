@@ -1,0 +1,61 @@
+# Dataset Overview
+
+## Introduction
+This document provides an overview of the dataset related to the hotel enterprise in the hospitality domain. It includes details about the tables, columns, and key information extracted from the dataset.
+
+## Tables
+The dataset consists of the following tables:
+
+1. `fact_bookings`
+2. `fact_aggregated_bookings`
+3. `dim_rooms`
+4. `dim_hotels`
+5. `dim_date`
+
+## Columns
+### 1. `fact_bookings`
+- `booking_id`: Unique identifier for bookings.
+- `property_id`: Property identifier from the `dim_hotels` table.
+- `booking_date`: Date when the booking was made.
+- `check_in_date`: Date of check-in.
+- `checkout_date`: Date of check-out.
+- `no_guests`: Number of guests.
+- `room_category`: Category of rooms (RT1, RT2, RT3, RT4).
+- `booking_platform`: Platform used for booking.
+- `ratings_given`: Ratings provided by guests.
+- `booking_status`: Status of the booking (Checked Out, Cancelled, No Show).
+- `revenue_generated`: Amount paid by the customer.
+- `revenue_realized`: Actual revenue received by the hotel.
+
+### 2. `fact_aggregated_bookings`
+- `property_id`: Property identifier.
+- `check_in_date`: Date of check-in.
+- `room_category`: Category of rooms.
+- `successful_bookings`: Number of successful bookings.
+- `capacity`: Total guest capacity.
+
+### 3. `dim_rooms`
+- `room_id`: Room type identifier.
+- `room_class`: Room type description.
+
+### 4. `dim_hotels`
+- `property_id`: Property identifier.
+- `property_name`: Name of the hotel property.
+- `category`: Category of the hotel (Luxury, Business).
+- `city`: Location city of the property.
+
+### 5. `dim_date`
+- `date`: Date column.
+- `mmm yy`: Month and year column.
+- `week no`: Week number of the year.
+- `day_type`: Day type (Weekend, Weekday).
+
+## Insights
+- Provide insights derived from the dataset, such as revenue trends, occupancy rates, popular room categories, and booking behavior.
+
+## Conclusion
+Summarize the key findings and implications of the dataset analysis.
+
+## References
+Include any references or sources of information used in the dataset overview.
+
