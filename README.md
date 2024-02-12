@@ -29,6 +29,10 @@ Explore other platforms or unrecognized sources contributing to around 40% of to
 
 ![Occ and booking db](https://github.com/samjam29/AtliqGrand/assets/67960348/8d39ee68-d6ea-45f4-9c51-2bd4b82c6173)
 
+## Live Dashboard
+[revenue and Booking behaviour analysis dashboard](https://public.tableau.com/app/profile/abdus.sami.bangi/viz/AtliQgrand/Revenuedashboard)
+
+
 
 ## EDA Summary
 The exploratory data analysis (EDA) conducted in Python pandas revealed insights such as revenue distribution, property performance, and guest behavior.
